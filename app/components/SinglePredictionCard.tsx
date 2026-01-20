@@ -24,7 +24,7 @@ interface PredictionResponse {
 }
 
 export function SinglePredictionCard() {
-    const [smiles, setSmiles] = useState<string>('CCO');
+    const [smiles, setSmiles] = useState<string>(' ');
     const [result, setResult] = useState<PredictionResponse | null>(null);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState<string | null>(null);
