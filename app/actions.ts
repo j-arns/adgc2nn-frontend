@@ -3,7 +3,7 @@
 // This file runs strictly on the server.
 // The API_URL is never exposed to the client.
 
-const API_URL = process.env.API_URL || 'http://127.0.0.1:3001';
+const API_URL = process.env.INTERNAL_API_URL || 'http://backend:3001';
 
 export interface ActionResponse<T> {
     success: boolean;
