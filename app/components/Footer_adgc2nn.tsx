@@ -1,6 +1,6 @@
 import React from 'react';
 
-export function Footer() {
+export function FooterAdgc2nn() {
     return (
         <footer className="mt-12 pt-8 border-t border-slate-200 text-slate-600 text-sm leading-relaxed">
             <div className="grid md:grid-cols-3 gap-8">
