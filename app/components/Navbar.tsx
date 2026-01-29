@@ -16,7 +16,7 @@ export function Navbar() {
                                 <FlaskConical className="w-5 h-5 text-white" />
                             </div>
                             <span className="font-bold text-lg text-slate-900 tracking-tight">
-                                Model <span className="text-slate-400 font-normal hidden sm:inline">Suite</span>
+                                Model <span className="text-slate-400 font-normal">Suite</span>
                             </span>
                         </div>
                         <div className="hidden sm:ml-8 sm:flex sm:space-x-8">
